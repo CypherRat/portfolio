@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
 *,
 *::after,
 *::before {
@@ -8,4 +10,10 @@
 body {
   background-color: blue;
   color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Creepster", cursive;
 }
