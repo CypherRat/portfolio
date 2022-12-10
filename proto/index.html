@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #87cefa;
+      }
+      .mask {
+        width: 100%;
+      }
+      .mask .bg {
+        width: 100%;
+      }
+      @media only screen and (min-width: 768px) {
+        .mask {
+          margin: 0 auto;
+          width: 50%;
+        }
+        .mask .bg {
+          /* width: 100%; */
+        }
+      }
+    </style>
   </head>
   <body>
-    Hello!
+    <div class="mask">
+      <img class="bg" src="./mob-bg-tide.svg" alt="BG" />
+    </div>
   </body>
 </html>
