@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <style>
       * {
         margin: 0;
@@ -21,6 +25,12 @@
       .mask .bg {
         width: 100%;
       }
+      .mode-icon {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+      }
+
       @media only screen and (min-width: 768px) {
         .mask {
           margin: 0 auto;
@@ -30,6 +40,9 @@
     </style>
   </head>
   <body>
+    <div class="mode-icon">
+      <i class="fa-solid fa-moon fa-2x"></i>
+    </div>
     <div class="mask">
       <img class="bg" src="./mob-bg-tide.svg" alt="BG" />
     </div>
